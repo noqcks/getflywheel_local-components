@@ -71,7 +71,7 @@ export const VerticalNavItem = (props: IProps) => {
 		return renderWrapper(
 			<NavLink
 				to={routeTo || ''}
-				exact={false}
+				end
 				aria-label={tooltip || undefined}
 				activeClassName={navLinkActiveClassName || '__Active'}
 				className={classnames(navLinkClass, additionalNavLinkClass, {
