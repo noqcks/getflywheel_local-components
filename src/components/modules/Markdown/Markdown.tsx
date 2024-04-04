@@ -28,7 +28,7 @@ export default class Markdown extends React.Component<IProps> {
 					styles.Markdown,
 					this.props.className,
 				)}
-				escapeHtml={true}
+				rehypePlugins={[rehypeRaw]}
 				renderers={{
 					code: MarkdownCodeBlock,
 				}}
