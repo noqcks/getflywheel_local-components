@@ -9,7 +9,7 @@ class ExampleBase extends React.Component<RouteComponentProps> {
 			<div>
 				<TabNav>
 					<NavLink
-						exact={true}
+						end
 						to={`${this.props.match.url}/`}
 						activeClassName="active"
 					>
