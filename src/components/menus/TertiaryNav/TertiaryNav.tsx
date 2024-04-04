@@ -1,7 +1,7 @@
 // eslint-disable-next-line max-classes-per-file
 import * as React from 'react';
 import classnames from 'classnames';
-import { Switch, Route, NavLink, RouteComponentProps, withRouter, Redirect } from 'react-router-dom';
+import { Routes, Route, NavLink, RouteComponentProps, withRouter, Redirect } from 'react-router-dom';
 import styles from './TertiaryNav.scss';
 import IReactComponentProps from '../../../common/structures/IReactComponentProps';
 import { FunctionGeneric } from '../../../common/structures/Generics';
