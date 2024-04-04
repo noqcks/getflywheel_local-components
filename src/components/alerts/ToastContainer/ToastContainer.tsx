@@ -30,7 +30,7 @@ const ToastContainer = (props: ToastContainerProps) => {
 		pauseOnHover: false,
 		closeOnClick: false,
 		pauseOnFocusLoss: false,
-		position: toastDefault.POSITION.BOTTOM_RIGHT,
+		position: "bottom-right" as const,
 		newestOnTop: true,
 		draggable: false,
 	};
