@@ -1,5 +1,6 @@
 import React from 'react';
-import { NavLink, Switch, Route, withRouter, RouteComponentProps } from 'react-router-dom';
+import { NavLink, Route, withRouter, RouteComponentProps } from 'react-router-dom';
+import { Routes } from 'react-router-dom';
 import TabNav from '../TabNav';
 
 class ExampleBase extends React.Component<RouteComponentProps> {
